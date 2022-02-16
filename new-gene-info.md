@@ -1,6 +1,7 @@
 ## API: ```MyGene.Info```
 
-#### Explored by: HWang MXiang TRidgley (Bioinformatics 201, UCLA, 2022)
+#### Explored by: HWang MXiang TRidgley 
+(Bioinformatics 201, UCLA, 2022)
 
 ### Description: 
 
