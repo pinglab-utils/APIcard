@@ -23,5 +23,5 @@ corresponding annotations/labels.
   - Retrieve abstracts from highest published gene
 
 ### Tutorial:
-https://colab.research.google.com/drive/1wClPzdU3wxqcR5oGW2mPm1efSdv6CFLf?us
-p=sharing
+
+- https://colab.research.google.com/drive/1wClPzdU3wxqcR5oGW2mPm1efSdv6CFLf?usp=sharing
