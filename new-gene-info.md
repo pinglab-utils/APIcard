@@ -1,6 +1,6 @@
 ## API: MyGene.Info
 
-### Contributer: HWang MXiang TRidgley
+#### Contributer: HWang MXiang TRidgley
 
 ### Description: MyGene.info is a web API built with BioThings SDK for accessing gene annotation
 information from different sources and integrating that information. There are 2 services: Gene Query &
