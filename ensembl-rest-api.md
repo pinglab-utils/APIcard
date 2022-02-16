@@ -25,4 +25,4 @@ phenotype. Optionally, the PubMed IDs of papers that made those associated can b
 CADD deleteriousness score, its sequence ontology, and more.
 
 ### Tutorial
-- [Ensemble REST API tutorial](https://colab.research.google.com/drive/1vhnHo1KlYryD7bGO5oWc4UpaKk3rHMoS?usp=sharing)
+- [Ensemble REST API tutorial in Google Colab](https://colab.research.google.com/drive/1vhnHo1KlYryD7bGO5oWc4UpaKk3rHMoS?usp=sharing)
