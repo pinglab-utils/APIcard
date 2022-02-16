@@ -21,6 +21,6 @@ accessed directly with either their NCBI or EMSEMBL IDs.
   - http://mygene.info/v3/gene/ENSG00000123374
 
 ### Tutorial:
-- https://colab.research.google.com/drive/1sIAT4ZVg8zB_miOrnUuQH9XwosqnM_T6?usp=sharing#scrollTo=5Co7ypvkPJW8
+- [Tutorial for MyGene.Info](https://colab.research.google.com/drive/1sIAT4ZVg8zB_miOrnUuQH9XwosqnM_T6?usp=sharing#scrollTo=5Co7ypvkPJW8)
 
 
