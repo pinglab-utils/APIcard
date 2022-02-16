@@ -1,6 +1,6 @@
 ## NIH Genomic Data Commons(API: Genomic Data Commons (GDC) Portal)
 
-#### Explored by:
+#### Explored by: Cheng Michael Wenkai, Ryo Jieun Michael
 
 ### Description: 
 
