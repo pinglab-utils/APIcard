@@ -1,4 +1,4 @@
-## API: MyGene.Info
+## API: ```MyGene.Info```
 
 #### Contributer: HWang MXiang TRidgley
 
@@ -11,15 +11,15 @@ protein and pathways can be found. If the gene of interest is know, then full ge
 accessed directly with either their NCBI or EMSEMBL IDs.
 
 ### Use Cases:
-- 1. Query genes (https://docs.mygene.info/en/latest/doc/query_service.html)
+- Query genes (https://docs.mygene.info/en/latest/doc/query_service.html)
 
 Find genes associated with a protein, organism, genomic interval, name, alias, pathway, gene ontology, etc.
 
 http://mygene.info/v3/query?q=symbol:cdk2
 http://mygene.info/v3/query?q=chrX:151,073,054-151,383,976&species:human
 
-- 2. Annotate genes (https://docs.mygene.info/en/latest/doc/annotation_service.html)
-- 
+- Annotate genes (https://docs.mygene.info/en/latest/doc/annotation_service.html)
+
 Return aggregated info for a desired gene object using either Entrez (“1017”) or Ensembl (“ENSG00000123374”).
 
 http://mygene.info/v3/gene/1017
