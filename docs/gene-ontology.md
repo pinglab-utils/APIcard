@@ -3,8 +3,7 @@
 #### Explored by:
 
 
-```HU, CHARLOTTE
-HU, CHARLOTTE```, ```LAPINSKA, SANDRA```,```WINATA, HELENA KANYA```- ```(Bioinfo 201 - Winter 2022)```
+```HU, CHARLOTTEHU, CHARLOTTE```, ```LAPINSKA, SANDRA```,```WINATA, HELENA KANYA```- ```(Bioinfo 201 - Winter 2022)```
 
 ![img](img/ontology.png)
 
@@ -29,4 +28,4 @@ Find all concept related to a particular disease or gene - We can use this API t
 
 #### Tutorial: 
 
-[A tutorial on Gene Ontology in Google Colab is available here](https://colab.research.google.com/drive/1xQkpV3FsaMG-r5gEvcXX5dkDhvcfmoMn)
+[A tutorial on Gene Ontology in Google Colab is available here](https://colab.research.google.com/drive/1udOYQXJijKu5QuzdAbDmRgkyKT96aktu?usp=sharing)
