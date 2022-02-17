@@ -3,7 +3,8 @@
 #### Explored by:
 
 
------
+```HU, CHARLOTTE
+HU, CHARLOTTE```, ```LAPINSKA, SANDRA```,```WINATA, HELENA KANYA```- ```(Bioinfo 201 - Winter 2022)```
 
 ![img](img/ontology.png)
 
