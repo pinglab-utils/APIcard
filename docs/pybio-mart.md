@@ -2,7 +2,7 @@
 
 #### Explored by:
 
-```HUANG, ELAINE```, ```XUE, ALBERT```- ```(Bioinfo 201 - Winter 2022)```
+```HUANG, ELAINE```,```XUE, ALBERT```- ```(Bioinfo 201 - Winter 2022)```
 
 ![img](img/pybiomart.png)
 

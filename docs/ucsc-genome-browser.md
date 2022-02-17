@@ -30,4 +30,4 @@ genome
 human genome
 
 ### Tutorial:
-- [Tutorial for USCS Genome Browser in Google Colab is available here](colab.research.google.com/drive/1XzeVtU_jPoMKHZQJ3Sl4HDB9PgnCmvSl?usp=sharing#scrollTo=3dVjLXywli9b)
+- [Tutorial for USCS Genome Browser in Google Colab is available here](https://colab.research.google.com/drive/1XzeVtU_jPoMKHZQJ3Sl4HDB9PgnCmvSl?usp=sharing#scrollTo=3dVjLXywli9b)

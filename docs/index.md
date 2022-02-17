@@ -4,7 +4,12 @@
 
 Welcome to API card collection!
 
-We have created a collection of API cards to explore and integrate Bioinformatics databases. It is prepared together with students in **BioInfo 201-Winter, 2022, UCLA** class, conducted by **Pinglab UCLA**, as their class project. The main aim of this collection is to let students be familiar with available bioinformatics resources and learn to implement their APIs to interact and integrate multiple resources to design a data accessing pipeline to assist a research studies in multi-omics integration.
+Application Programming Interfaces (APIs) are software intermediaries that enable two applications to communicate. Many biomedical knowledge bases and software tools support API access. 
+
+We have compiled all API cards collected by students in **BioInfo 201-Winter, 2022, UCLA** class, conducted by **Pinglab UCLA**, as their class project into a unified document.The goal of this project is to: 
+
+- Learn which APIs are available for biomedical knowledge, software tools, or datasets, and how they can be accessed.
+- Describe how these APIs can be leveraged for omics-related data analysis workflows.
 
 Each API card document is prepared by a group of students which includes:
 
@@ -15,7 +20,7 @@ Each API card document is prepared by a group of students which includes:
 
 ## A Sample API Card
 
-Following is a sample API card prepared by us on Uniprot API. We encourage students to follow the similar pattern and add more information (e.g., cheat sheet, citations, supporting papers) if needed and available.
+Following is a sample API card prepared by instructors on Uniprot API. We encourage students to follow the similar pattern and add more information (e.g., cheat sheet, citations, supporting papers) if needed and available.
 
 -----------
 
@@ -23,7 +28,7 @@ Following is a sample API card prepared by us on Uniprot API. We encourage stude
 
 #### Description: 
 
-UniProt is a protein knowledge base which provides information on proteins, including their sequences, their biological function, and other properties, curated from their references in the biomedical literature. Uniprot can be accessed directly at
+UniProt is a protein knowledge base which provides information on proteins, including their sequences, their biological function, and other properties, curated from their references in the biomedical literature. UniProt can be accessed directly at
 [uniprot.org](https://www.uniprot.org/) and instructions to the API are detailed at [online API document](https://www.uniprot.org/help/programmatic_access).
 
 
@@ -42,7 +47,7 @@ UniProt’s web API described here to convert these IDs.)
 
 We encourage students to create a Google Colab jupyter notebook as a tutorial with necessary code to illustrate the use of API with some tasks. Here we provide a smaple tutorial for Uniprot API.
 
-[Tutorial on Uniprot API in Goole Colab is available here](colab.research.google.com/drive/1gblX7Sv-z54VcuIPQ88pQ0OT9DgRkQu_?usp=sharing)
+[Tutorial on Uniprot API in Goole Colab is available here](https://colab.research.google.com/drive/1gblX7Sv-z54VcuIPQ88pQ0OT9DgRkQu_?usp=sharing)
 
 
 ---------

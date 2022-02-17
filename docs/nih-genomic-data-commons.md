@@ -22,7 +22,7 @@ You can find instructions for how to use two popular API’s here:
 
 ### Use Cases:
 
-- Data Exploration and Retrieval – Gather genomic data from patients of a certain cancer type on the [Repository page](https://portal.gdc.cancer.gov/) repository or through the above APIs.
+- Data Exploration and Retrieval – Gather genomic data from patients of a certain cancer type on the [Repository page](https://portal.gdc.cancer.gov/) or through the above APIs.
 - Clinical Comparison – Compare clinical characteristics of specified groups of patients on the [Analysis page](https://portal.gdc.cancer.gov/analysis).
 
 ### Tutorial: 

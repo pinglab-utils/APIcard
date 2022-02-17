@@ -38,4 +38,4 @@ significant method, significant value, maximum number of genes for a category, I
 of the gene list and reference set)
 
 ### Tutorial:
-- [Tutorial for Web Gestalt Web API in Google Colab is available here](https://drive.google.com/file/d/1stWVKXDuqQ8lOquy_HKOSc9j3dW9opZ8/view?usp=sharing)
+- [Tutorial for Web Gestalt Web API in Google Colab is available here](https://colab.research.google.com/drive/18_JNFjTkzNPnc40gdblYnhGwgv0uSEnp?usp=sharing)
