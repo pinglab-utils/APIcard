@@ -1,16 +1,18 @@
-## NIH Genomic Data Commons
-(API: Genomic Data Commons (GDC) Portal)
+## API: NIH Genomic Data Commons - (GDC)
 
-#### Explored by: Cheng Michael Wenkai, Ryo Jieun Michael
+#### Explored by: 
+
+```Cheng Michael Wenkai```, ```Ryo Jieun Michael```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
 ### Description: 
 
 Genomics Data Commons is a database where cancer researchers and bioinformaticians can
-download patient data for cancer analysis, including RNA-sequencing, DNA methylation, and ATAC-seq for a
-variety of cancer types. GDC portal can be accessed directly through this link: https://portal.gdc.cancer.gov/.
+download patient data for cancer analysis, including RNA-sequencing, DNA methylation, and ATAC-seq for a variety of cancer types. GDC portal can be accessed directly through this link: [portal.gdc.cancer.gov](https://portal.gdc.cancer.gov/).
+
 You can find instructions for how to use two popular API’s here:
-- GDC command line API (https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/)
-- TCGAbiolinks R package (https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html)
+
+-  [GDC command line API](https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/)
+-  [TCGAbiolinks R package](https://bioconductor.org/packages/release/bioc/htmlTCGAbiolinks.html)
 
 ### Use Cases:
 
@@ -21,4 +23,4 @@ https://portal.gdc.cancer.gov/analysis.
 
 ### Tutorial: 
 
-- https://colab.research.google.com/drive/1YJ_ypFD9mPaLZ2SfQ4QFPnOT9RXjEum4?usp=sharing
+- [Tutorial for NIH Genomic Data Common in Gogle Colab is available here.](https://colab.research.google.com/drive/1YJ_ypFD9mPaLZ2SfQ4QFPnOT9RXjEum4?usp=sharing)

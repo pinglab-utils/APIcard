@@ -1,6 +1,6 @@
 
 
-site_name: API CARD
+site_name: API-CARD (PingLab UCLA)
 
 extra_javascript: 
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
@@ -36,28 +36,18 @@ nav:
 - Home: index.md
 
 
-- Genomics:
-  - New Gene Info: docs/new-gene-info.md
-  - NIH Genomic Data Common: docs/nih-genomic-data-commons.md
-  - Enseble REST API: docs/ensemble-rest-api
-  - cBioPortal: docs/cbio-portal.md
-  - GWAS Rappid Catalog: docs/gwasrappid-catalog.md
-  - OMIM API: docs/omim-api.md
-
-
-- Transcriptomics: 
-  - USCS Genome Browser: docs/uscs-genome-browser.md
-  
-  
-- Proteomics:
-  - PUBTARTOR Central API: docs/pubtator-central-api.md
-  - Uniprot API: docs/uniprot.md
-  
-- Metabolomics:
-  - Web Gesalt Web API: docs/web-gestalt-web-api.md
-
-- Single Cell: 
-  - Scanty : docs/scanty.md
+- API Card:
+  - New Gene Info: new-gene-info.md
+  - NIH Genomic Data Common: nih-genomic-data-commons.md
+  - Enseble REST API: ensembl-rest-api.md
+  - cBioPortal: cbio-portal.md
+  - GWAS Rappid Catalog: gwasrappid-catalog.md
+  - OMIM API: omim-api.md
+  - USCS Genome Browser: ucsc-genome-browser.md
+  - PubTator Central API: pubtator-central-api.md
+  - Uniprot API: uniprot.md
+  - Web Gesalt Web API: web-gestalt-web-api.md
+  - Scanty : scanty.md
   
 
 

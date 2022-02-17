@@ -1,6 +1,8 @@
 ## API: UCSC Genome Browser
 
-#### Explored by: ngokathiej
+#### Explored by: 
+
+```Ngokathiej```
 
 ### Description: 
 
@@ -8,8 +10,7 @@ UCSC Genome Browser is an interactive website hosted by the
 University of California, Santa Cruz (UCSC). It provides biomedical researchers with
 genome sequence and annotation data from major model organisms include human,
 mouse, fruit fly e.g. Online graphical viewer can be accessed at
-https://genome.ucsc.edu/ , the usage of API are detailed as
-https://genome.ucsc.edu/goldenPath/help/api.html
+[genome.uscs.edu](https://genome.ucsc.edu/) , the usage of API are detailed in [this link](https://genome.ucsc.edu/goldenPath/help/api.html)
 
 
 ### Use cases:
@@ -23,4 +24,4 @@ genome
 human genome
 
 ### Tutorial:
-- colab.research.google.com/drive/1XzeVtU_jPoMKHZQJ3Sl4HDB9PgnCmvSl?usp=sharing#scrollTo=3dVjLXywli9b
+- [Tutorial for USCS Genome Browser in Google Colab is available here](colab.research.google.com/drive/1XzeVtU_jPoMKHZQJ3Sl4HDB9PgnCmvSl?usp=sharing#scrollTo=3dVjLXywli9b)

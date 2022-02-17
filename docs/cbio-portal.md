@@ -1,14 +1,16 @@
 ## cBioPortal
 
-#### Explored by: Timothy, Jonathan, Maria
+#### Explored by: 
+
+```Timothy```, ```Jonathan```, ```Maria```
 
 ### Description: 
 
 The cBioportal for Cancer Genomics is an open-access, open-source
 resource for interactive exploration and visualization of multidimensional cancer
 genomics data sets. cBioPortal can be accessed directly at
-https://www.cbioportal.org . Instructions to cBioportal can be found at
-https://www.cbioportal.org/tutorials#webinar-1.
+[cbioportal.org](https://www.cbioportal.org) . Instructions to cBioportal can be found at
+[this link](https://www.cbioportal.org/tutorials#webinar-1).
 
 
 ### Use Cases:
@@ -22,5 +24,4 @@ Outcomes
 
 
 ### Tutorial:
-https://colab.research.google.com/drive/1YD8YyDIVcAbMYuqPZP4U1SgwSYwbZ
--Vl?usp=sharing
+[Tutorial for cBioPortal in Google Colab is available here](https://colab.research.google.com/drive/1YD8YyDIVcAbMYuqPZP4U1SgwSYwbZ-Vl?usp=sharing)

@@ -1,14 +1,14 @@
 ## API: Ensembl Rest API
 
-#### Explored by: Connor Razma, Niko Darci-Maher
+#### Explored by: 
+
+```Connor Razma```, ```Niko Darci-Maher```
 
 ### Description
 
 Ensembl is a genome browser that returns an Ensembl ID as part of its annotation program. The Ensembl Rest API provides
 many additional functions that supplement this genome browser detailed in the use cases below. The Ensembl Rest API
-accesses the software for each of these use cases that was developed by the software team at Ensembl. Ensembl can be
-accessed directly here https://uswest.ensembl.org/info/docs/tools/index.html. Instructions for the software are detailed
-here https://rest.ensembl.org/.
+accesses the software for each of these use cases that was developed by the software team at Ensembl. Ensembl can be accessed directly at [uswest.ensembl.org](https://uswest.ensembl.org/info/docs/tools/index.html). Instructions for the software are detailed [REST API document available here](https://rest.ensembl.org/).
 
 
 ### Use cases
@@ -25,4 +25,4 @@ phenotype. Optionally, the PubMed IDs of papers that made those associated can b
 CADD deleteriousness score, its sequence ontology, and more.
 
 ### Tutorial
-- [Ensemble REST API tutorial in Google Colab](https://colab.research.google.com/drive/1vhnHo1KlYryD7bGO5oWc4UpaKk3rHMoS?usp=sharing)
+- [Ensemble REST API tutorial in Google Colab is available here](https://colab.research.google.com/drive/1vhnHo1KlYryD7bGO5oWc4UpaKk3rHMoS?usp=sharing)

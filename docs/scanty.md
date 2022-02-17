@@ -1,6 +1,8 @@
 ## API: Scanpy
 
-####  Explored by: Huang Helen
+####  Explored by: 
+
+```Huang Helen```
 
 ### Description: 
 
@@ -12,13 +14,13 @@ Scanpy is a general purpose API for various components of the single-cell analys
 4. Marker gene identification
 5. Plotting
 
-It can be accessed via the website https://scanpy.readthedocs.io/en/stable/api.html, and the
-original paper can be found on Genome Biology https://doi.org/10.1186/s13059-017-1382-0.
+It can be accessed via the [website documentation](https://scanpy.readthedocs.io/en/stable/api.html), and the original paper can be found on Genome Biology [at this link](https://doi.org/10.1186/s13059-017-1382-0).
 
 ### Tutorial: 
 
 we created a simple tutorial covering some of these functions for a scRNA-seq
-dataset, which can be accessed at https://colab.research.google.com/drive/1iwNnEjuJbJ9pyQ9KG7inCQt1LQzlJxTQ?usp=sharing.
+dataset, which can be accessed [at this link](https://colab.research.google.com/drive/1iwNnEjuJbJ9pyQ9KG7inCQt1LQzlJxTQ?usp=sharing)
+.
 The tutorial has the following structure:
 
 1. Load data

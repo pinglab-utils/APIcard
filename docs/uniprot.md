@@ -1,6 +1,10 @@
-## cBioPortal
+## Uniprot API
 
-#### Explored by: Timothy, Jonathan, Maria
+
+#### Explored by: 
+
+```Sample Provided by PingLab UCLA```
+
 
 ### Description: 
 

@@ -1,14 +1,15 @@
-## API: PubTator Central API (PTC)
+## PubTator Central (PTC) API
 
-#### Explored by: Jessica Chen, Jack Dodson, Alexander Flynn-Carroll
+#### Explored by: 
+
+```Jessica Chen```, ```Jack Dodson```, ```Alexander Flynn-Carroll```
 
 
 ### Description: 
+
 PTC is a Web application that gives automatic annotations of biomedical concepts
-(mutations, genes, diseases, drugs, diseases) extracted from PMC articles and PubMed
-abstracts. PTC can be accessed at https://www.ncbi.nlm.nih.gov/research/pubtator/index.html
-and instructions and examples for usage can be located at
-https://www.ncbi.nlm.nih.gov/research/pubtator/api.html.
+(e.g., mutations, genes, diseases, drugs, diseases) extracted from PMC articles and PubMed
+abstracts. PTC can be accessed at [National Library of Medicine website](https://www.ncbi.nlm.nih.gov/research/pubtator/index.html) and instructions and examples for usage can be located at [API document site](https://www.ncbi.nlm.nih.gov/research/pubtator/api.html).
 
 
 ### Use cases:
@@ -24,4 +25,4 @@ corresponding annotations/labels.
 
 ### Tutorial:
 
-- https://colab.research.google.com/drive/1wClPzdU3wxqcR5oGW2mPm1efSdv6CFLf?usp=sharing
+- [Tutorial for Putator Central API in Google colab is available here](https://colab.research.google.com/drive/1wClPzdU3wxqcR5oGW2mPm1efSdv6CFLf?usp=sharing)

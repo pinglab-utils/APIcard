@@ -1,7 +1,9 @@
 ## API: gwasrapidd/GWAS catalog
 
-#### Explored by: Aditya Pimplaskar, Terence Li, Sandy Kim
-(Bioinfo 201 - Winter 2022)
+#### Explored by: 
+
+```Aditya Pimplaskar```, ```Terence Li```, ```Sandy Kim```
+- ```(Bioinfo 201 - Winter 2022)```
 
 ### Description:
 
@@ -16,11 +18,9 @@ It enables users to quickly retrieve, filter and integrate data with comprehensi
 bioinformatics analysis tools, which is particularly critical for those looking into functional
 characterization of risk loci.
 
-### Tutorial from developer:
-- https://rmagno.eu/gwasrapidd/articles/gwasrapidd.html
+- [Tutorial from developer is available here](https://rmagno.eu/gwasrapidd/articles/gwasrapidd.html)
 
-### Cheat sheet from developer:
-- https://github.com/rstudio/cheatsheets/blob/main/gwasrapidd.pdf
+- [Cheat sheet from developer is available here](https://github.com/rstudio/cheatsheets/blob/main/gwasrapidd.pdf)
 
 ### Use cases:
 
@@ -32,11 +32,9 @@ characterization of risk loci.
 - Set operations to manage and filter queries
 
 ### Our tutorial:
-- https://colab.research.google.com/drive/17jd1hoBmDjhBALgGxyni71-S4UiTwLr-#scrollTo=GpoWJB_I1jrb
 
-### Slides:
-- https://docs.google.com/presentation/d/1I31d16N1xFjdedgk68WEw5jy9yU36pb7t8gB
-2XJ1940/edit?usp=sharing
+- [Tutorial for Gwas Rappid Catalog in Google Colab is available here](https://colab.research.google.com/drive/17jd1hoBmDjhBALgGxyni71-S4UiTwLr-#scrollTo=GpoWJB_I1jrb)
+- [Find the Slides here](https://docs.google.com/presentation/d/1I31d16N1xFjdedgk68WEw5jy9yU36pb7t8gB2XJ1940/edit?usp=sharing)
 
 ### Citations:
 

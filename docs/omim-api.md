@@ -1,14 +1,14 @@
-## OMIM API tutorial
-(omim - Online Mendelian Inheritance in Man)
+## OMIM API 
 
-#### Explored by: Boulier kristin, Gorlapurna Chandra Aditya
+#### Explored by:
+ ```Boulier kristin```, ```Gorlapurna Chandra Aditya```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
 ### Description: O
 
 MIM is a comprehensive database of genetic disease phenotypes and genes associated
 with disease. Genes and diseases are described with standardized terminology (HPO terms) and with
 extensive citations. It is manually curated and maintained by a small group of scientists and clinicians at
-Johns Hopkins University lead by Dr. Ada Hamosh. RLS: https://omim.org/, API: https://omim.org/api
+Johns Hopkins University lead by Dr. Ada Hamosh. [URL](https://omim.org/) and  [API](https://omim.org/api)
 
 ### Use Cases:
 
@@ -18,5 +18,5 @@ Johns Hopkins University lead by Dr. Ada Hamosh. RLS: https://omim.org/, API: ht
 4. Pull a list of other disorders similar to your disorder of interest
 
 ### Tutorial:
-- https://colab.research.google.com/drive/1gbhg5ZAxnW8saTCaS4IBzlaYDijd3Elx?usp=sharing
+- [Tutorial for OMIM API in Google Colab is available here](https://colab.research.google.com/drive/1gbhg5ZAxnW8saTCaS4IBzlaYDijd3Elx?usp=sharing)
 
