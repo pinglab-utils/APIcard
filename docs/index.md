@@ -6,7 +6,7 @@ Welcome to API card collection!
 
 Application Programming Interfaces (APIs) are software intermediaries that enable two applications to communicate. Many biomedical knowledge bases and software tools support API access. 
 
-We have compiled all API cards collected by students in **BioInfo 201-Winter, 2022, UCLA** class, conducted by **Pinglab UCLA**, as their class project into a unified document.The goal of this project is to: 
+We have compiled all API cards collected by students in **BioInfo 201-Winter, 2022, UCLA** class, conducted by **Pinglab UCLA**, as their class project into a unified document. The goal of this project is to: 
 
 - Learn which APIs are available for biomedical knowledge, software tools, or datasets, and how they can be accessed.
 - Describe how these APIs can be leveraged for omics-related data analysis workflows.
