@@ -2,7 +2,7 @@
 
 #### Explored by: 
 
-```Timothy```, ```Jonathan```, ```Maria```
+```FLORES, MARIA V```, ```HAMILTON, TIMOTHY```, ```MAH, JONATHAN CHARLES```- ```(Bioinfo 201 - Winter 2022)```
 
 ### Description: 
 

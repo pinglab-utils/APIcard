@@ -2,7 +2,7 @@
 
 #### Explored by: 
 
-```Hwang Mxiang Tridgley``` - ```(Bioinformatics 201, Winter-2022, UCLA)```
+```RIDGLEY, TREVOR JAY```,```WANG, HAROLD ZHAOKUN```,```XIANG, MARK```- ```(Bioinformatics 201, Winter-2022, UCLA)```
 
 ### Description: 
 

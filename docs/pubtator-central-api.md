@@ -2,7 +2,7 @@
 
 #### Explored by: 
 
-```Jessica Chen```, ```Jack Dodson```, ```Alexander Flynn-Carroll```
+```CHEN, JESSICA```, ```DODSON, JACK PATRICK```, ```FLYNN-CARROLL, ALEXANDER OWEN```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
 
 ### Description: 

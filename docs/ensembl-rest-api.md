@@ -2,7 +2,7 @@
 
 #### Explored by: 
 
-```Connor Razma```, ```Niko Darci-Maher```
+```DARCI-MAHER, NICHOLAS WAXTER```, ```RAZMA, CONNOR JOHN```- ```(Bioinfo 201 - Winter 2022)```
 
 ### Description
 

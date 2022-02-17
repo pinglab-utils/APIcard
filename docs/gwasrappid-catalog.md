@@ -2,8 +2,7 @@
 
 #### Explored by: 
 
-```Aditya Pimplaskar```, ```Terence Li```, ```Sandy Kim```
-- ```(Bioinfo 201 - Winter 2022)```
+```PIMPLASKAR, ADITYA```, ```LI, TERENCE WENTAO```, ```KIM, SANDY SUNG```- ```(Bioinfo 201 - Winter 2022)```
 
 ### Description:
 

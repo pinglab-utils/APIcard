@@ -2,7 +2,7 @@
 
 ####  Explored by: 
 
-```Huang Helen```
+```HUANG, HELEN```,```MATTHEWS, JAMIE EMOTO```,```PERRIE, JONATHAN VI```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
 ### Description: 
 

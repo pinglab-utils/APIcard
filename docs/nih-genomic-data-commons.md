@@ -2,7 +2,7 @@
 
 #### Explored by: 
 
-```Cheng Michael Wenkai```, ```Ryo Jieun Michael```-```(Bioinformatics 201, Winter-2022, UCLA)```
+```CHENG, MICHAEL WEN-KAI```, ```OH, JIEUN```, ```YAMAMOTO,RYO```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
 ### Description: 
 

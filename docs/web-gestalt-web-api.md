@@ -3,7 +3,7 @@
 
 #### Explored by: 
 
-```Huang Huiling```
+```HUANG, HUILING```,```FU, JINGYUAN```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
 
 ### Description: 

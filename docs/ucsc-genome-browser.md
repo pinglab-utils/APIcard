@@ -2,8 +2,7 @@
 
 #### Explored by: 
 
-```Ngokathiej```
-
+```HU, RAN```,```NGO, KATHIE J```,```WANG, YE```-```(Bioinformatics 201, Winter-2022, UCLA)```
 ### Description: 
 
 UCSC Genome Browser is an interactive website hosted by the
