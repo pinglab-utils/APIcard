@@ -1,8 +1,14 @@
-## API: Scanpy
+## Scanpy API
 
 ####  Explored by: 
 
 ```HUANG, HELEN```,```MATTHEWS, JAMIE EMOTO```,```PERRIE, JONATHAN VI```-```(Bioinformatics 201, Winter-2022, UCLA)```
+
+---------
+
+![img](img/scanpy.png)
+
+--------
 
 ### Description: 
 

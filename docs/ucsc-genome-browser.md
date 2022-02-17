@@ -1,8 +1,15 @@
-## API: UCSC Genome Browser
+## UCSC Genome Browser API
 
 #### Explored by: 
 
 ```HU, RAN```,```NGO, KATHIE J```,```WANG, YE```-```(Bioinformatics 201, Winter-2022, UCLA)```
+
+-----
+
+![img](img/ucsc.png)
+
+-----
+
 ### Description: 
 
 UCSC Genome Browser is an interactive website hosted by the

@@ -14,7 +14,7 @@ Each API card document includes
 
 ## Sample API Card
 
-### API: UniProt web API
+### API: UniProt Web API
 
 #### Description: 
 

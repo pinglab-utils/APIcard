@@ -1,8 +1,15 @@
-## API: Ensembl Rest API
+## Ensembl  API
 
 #### Explored by: 
 
 ```DARCI-MAHER, NICHOLAS WAXTER```, ```RAZMA, CONNOR JOHN```- ```(Bioinfo 201 - Winter 2022)```
+
+-----
+
+![img](img/ensembl.png)
+
+-----
+
 
 ### Description
 

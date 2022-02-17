@@ -37,17 +37,21 @@ nav:
 
 
 - API Card:
-  - New Gene Info: new-gene-info.md
+  
   - NIH Genomic Data Common: nih-genomic-data-commons.md
+  - USCS Genome Browser: ucsc-genome-browser.md
   - Enseble REST API: ensembl-rest-api.md
-  - cBioPortal: cbio-portal.md
+  - New Gene Info: new-gene-info.md
+  - Gene Ontology: gene-ontology.md
   - GWAS Rappid Catalog: gwasrappid-catalog.md
   - OMIM API: omim-api.md
-  - USCS Genome Browser: ucsc-genome-browser.md
-  - PubTator Central API: pubtator-central-api.md
-  - Uniprot API: uniprot.md
   - Web Gesalt Web API: web-gestalt-web-api.md
+  - cBioPortal: cbio-portal.md
   - Scanty : scanty.md
+  - PyBio Mart: pybio-mart.md
+  - Uniprot API: uniprot.md
+  - PubTator Central API: pubtator-central-api.md
+  
   
 
 

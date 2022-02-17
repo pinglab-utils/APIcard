@@ -5,6 +5,14 @@
 ```CHEN, JESSICA```, ```DODSON, JACK PATRICK```, ```FLYNN-CARROLL, ALEXANDER OWEN```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
 
+-----
+
+![img](img/pubtator.png)
+
+-----
+
+
+
 ### Description: 
 
 PTC is a Web application that gives automatic annotations of biomedical concepts

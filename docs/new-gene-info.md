@@ -1,8 +1,17 @@
-## API: ```MyGene.Info```
+## MyGene.Info API
 
 #### Explored by: 
 
 ```RIDGLEY, TREVOR JAY```,```WANG, HAROLD ZHAOKUN```,```XIANG, MARK```- ```(Bioinformatics 201, Winter-2022, UCLA)```
+
+
+-----
+
+![img](img/mygene.png)
+
+-----
+
+
 
 ### Description: 
 

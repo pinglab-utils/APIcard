@@ -3,7 +3,14 @@
 #### Explored by:
  ```Boulier, Kristin```, ```GORLA, PURNACHANDRA ADITYA```, ```MUSELLA, FRANCESCO```-```(Bioinformatics 201, Winter-2022, UCLA)```
 
-### Description: O
+ -----
+
+![img](img/omim.png)
+
+-----
+
+
+### Description: 
 
 OMIM is a comprehensive database of genetic disease phenotypes and genes associated
 with disease. Genes and diseases are described with standardized terminology (HPO terms) and with

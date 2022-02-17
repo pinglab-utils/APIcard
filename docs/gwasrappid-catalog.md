@@ -1,8 +1,16 @@
-## API: gwasrapidd/GWAS catalog
+## gwasrapidd/GWAS catalog API
 
 #### Explored by: 
 
 ```PIMPLASKAR, ADITYA```, ```LI, TERENCE WENTAO```, ```KIM, SANDY SUNG```- ```(Bioinfo 201 - Winter 2022)```
+
+
+-----
+
+![img](img/gwas.png)
+
+-----
+
 
 ### Description:
 
