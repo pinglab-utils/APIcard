@@ -1,7 +1,7 @@
 ## OMIM API tutorial
 (omim - Online Mendelian Inheritance in Man)
 
-#### Explored by: 
+#### Explored by: Boulier kristin, Gorlapurna Chandra Aditya
 
 ### Description: O
 
