@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Scanpy - API-CARD</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Scanpy";
+    var mkdocs_page_input_path = "scanty.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> API-CARD</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="tocbase current">
+    
+    
+      
+
+
+  <li class="navtree toctree-l1 inactive">
+    <a class="" href="..">Home</a>
+  </li>
+    
+      
+  <li class="navtree toctree-l1 label">
+    <p class="caption">API Card</p>
+  </li>
+
+
+  
+
+  
+    <li class="navtree toctree-l1 group">
+      <ul class="navtree subnav-l1 current">
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../nih-genomic-data-commons/">NIH Genomic Data Common</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ucsc-genome-browser/">USCS Genome Browser</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../ensembl-rest-api/">Ensebl REST API</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../new-gene-info/">New Gene Info</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../gene-ontology/">Gene Ontology</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../gwasrappid-catalog/">GWAS Rappid Catalog</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../omim-api/">OMIM API</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../web-gestalt-web-api/">WebGesalt Web API</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../cbio-portal/">cBio Portal</a>
+  </li>
+        
+          
+
+
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Scanpy
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+  <li class="toctree-l2 current with-children">
+    <a href="#scanpy-api">
+      Scanpy API
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#explored-by">Explored by:</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#description">Description:</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#tutorial">Tutorial:</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#use-cases">Use cases:</a>
+        </li>
+    
+    </ul>
+  </li>
+
+
+  
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../pybio-mart/">PyBio Mart</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../uniprot/">Uniprot API</a>
+  </li>
+        
+          
+
+
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../pubtator-central-api/">PubTator Central API</a>
+  </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">API-CARD</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>API Card &raquo;</li>
+        
+      
+    
+    <li>Scanpy</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="scanpy-api">Scanpy API</h2>
+<h4 id="explored-by">Explored by:</h4>
+<p><code>HUANG, HELEN</code>,<code>MATTHEWS, JAMIE EMOTO</code>,<code>PERRIE, JONATHAN VI</code>-<code>(Bioinformatics 201, Winter-2022, UCLA)</code></p>
+<hr />
+<p><img alt="img" src="../img/scanpy.png" /></p>
+<hr />
+<h3 id="description">Description:</h3>
+<p>Scanpy is a general purpose API for various components of the single-cell analysis pipeline; these include:</p>
+<ol>
+<li>Filtering</li>
+<li>Low-dimensional Embeddings</li>
+<li>Clustering</li>
+<li>Marker gene identification</li>
+<li>Plotting</li>
+</ol>
+<p>It can be accessed via the <a href="https://scanpy.readthedocs.io/en/stable/api.html">website documentation</a>, and the original paper can be found on Genome Biology <a href="https://doi.org/10.1186/s13059-017-1382-0">at this link</a>.</p>
+<h3 id="tutorial">Tutorial:</h3>
+<p>we created a simple tutorial covering some of these functions for a scRNA-seq
+dataset, which can be accessed <a href="https://colab.research.google.com/drive/1iwNnEjuJbJ9pyQ9KG7inCQt1LQzlJxTQ?usp=sharing">at this link</a>
+.
+The tutorial has the following structure:</p>
+<ol>
+<li>Load data</li>
+<li>Filter</li>
+<li>t-SNE vs UMAP computation and plotting</li>
+<li>Cluster into cell types and plotting</li>
+<li>Identify genes important for discriminating into groups</li>
+</ol>
+<h3 id="use-cases">Use cases:</h3>
+<p>we present two cases centered around analyzing rare cell types.</p>
+<ol>
+<li>
+<p>Task: Given a scRNA-seq data set with rare cell types, identify the marker genes
+Background: To better understand rare cell types, we can identify genes that are
+distinct in their gene expression profile
+Goal: Identify marker genes for rare cell types
+Method: API pipeline with some downsampling to balance class sizes
+Outcome: Marker genes for rare cell types</p>
+</li>
+<li>
+<p>Task: Given a scRNA-seq data set with rare cell types, construct a trajectory mapping
+the relationships between all cell types
+Background: To better understand rare cell types, we can look at their ontological
+frame with respect to other cell types mapped in some embedding space
+Goal: Append rare cell types to lineage tree of more common cell types
+Method: API pipeline with a separate projection of rare cell types to embedding after
+initial trajectory construction
+Outcome: Cell type trajectory</p>
+</li>
+</ol>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../pybio-mart/" class="btn btn-neutral float-right" title="PyBio Mart">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../cbio-portal/" class="btn btn-neutral" title="cBio Portal"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../cbio-portal/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../pybio-mart/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
