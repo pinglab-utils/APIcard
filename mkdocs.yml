@@ -1,0 +1,65 @@
+
+
+site_name: API CARD
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math
+    
+theme:
+  name: 'rtd-dropdown'
+  highlightjs: true
+  hljs_languages: []
+  include_homepage_in_sidebar: true
+  prev_next_buttons_location: bottom
+  navigation_depth: 4
+  titles_only: false
+  sticky_navigation: true
+  collapse_navigation: true
+ 
+ 
+  
+      
+markdown_extensions:
+  - codehilite:
+      linenums: false
+      guess_lang: false
+      use_pygments: true
+      noclasses: true
+      pygments_style: manni
+
+
+
+nav:
+- Home: index.md
+
+
+- Genomics:
+  - New Gene Info: docs/new-gene-info.md
+  - NIH Genomic Data Common: docs/nih-genomic-data-commons.md
+  - Enseble REST API: docs/ensemble-rest-api
+  - cBioPortal: docs/cbio-portal.md
+  - GWAS Rappid Catalog: docs/gwasrappid-catalog.md
+  - OMIM API: docs/omim-api.md
+
+
+- Transcriptomics: 
+  - USCS Genome Browser: docs/uscs-genome-browser.md
+  
+  
+- Proteomics:
+  - PUBTARTOR Central API: docs/pubtator-central-api.md
+  - Uniprot API: docs/uniprot.md
+  
+- Metabolomics:
+  - Web Gesalt Web API: docs/web-gestalt-web-api.md
+
+- Single Cell: 
+  - Scanty : docs/scanty.md
+  
+
+
+ 
+ 
