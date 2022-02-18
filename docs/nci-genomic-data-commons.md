@@ -1,4 +1,4 @@
-## NIH Genomic Data Commons - (GDC) API
+## NCI Genomic Data Commons - (GDC) API
 
 #### Explored by: 
 

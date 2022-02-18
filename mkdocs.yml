@@ -38,7 +38,7 @@ nav:
 
 - API Card:
   
-  - NIH Genomic Data Common: nih-genomic-data-commons.md
+  - NCI Genomic Data Common: nci-genomic-data-commons.md
   - USCS Genome Browser: ucsc-genome-browser.md
   - Ensebl REST API: ensembl-rest-api.md
   - New Gene Info: new-gene-info.md
