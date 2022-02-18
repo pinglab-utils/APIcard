@@ -47,7 +47,7 @@ UniProt’s web API described here to convert these IDs.)
 
 We encourage students to create a Google Colab jupyter notebook as a tutorial with necessary code to illustrate the use of API with some tasks. Here we provide a smaple tutorial for Uniprot API.
 
-[Tutorial on Uniprot API in Goole Colab is available here](https://colab.research.google.com/drive/1gblX7Sv-z54VcuIPQ88pQ0OT9DgRkQu_?usp=sharing)
+[Tutorial on Uniprot API in Google Colab is available here](https://colab.research.google.com/drive/1gblX7Sv-z54VcuIPQ88pQ0OT9DgRkQu_?usp=sharing)
 
 
 ---------
