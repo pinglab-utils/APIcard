@@ -49,8 +49,9 @@ nav:
   - cBio Portal: cbio-portal.md
   - Scanpy : scanty.md
   - PyBio Mart: pybio-mart.md
-  - Uniprot API: uniprot.md
   - PubTator Central API: pubtator-central-api.md
+  - Uniprot API: uniprot.md
+  
   
   
 
