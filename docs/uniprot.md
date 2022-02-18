@@ -1,4 +1,4 @@
-### API: UniProt Web API
+### UniProt Web API
 
 A sample Provided by Pinglab UCLA
 
@@ -30,4 +30,4 @@ UniProt’s web API described here to convert these IDs.)
 
 #### Tutorial: 
 
-[Tutorial on Uniprot API in Goole Colab is available here](https://colab.research.google.com/drive/1gblX7Sv-z54VcuIPQ88pQ0OT9DgRkQu_?usp=sharing)
+[Tutorial on Uniprot API in Google Colab is available here](https://colab.research.google.com/drive/1gblX7Sv-z54VcuIPQ88pQ0OT9DgRkQu_?usp=sharing)

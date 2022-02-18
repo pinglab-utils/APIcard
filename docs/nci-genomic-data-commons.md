@@ -27,4 +27,4 @@ You can find instructions for how to use two popular API’s here:
 
 ### Tutorial: 
 
-- [Tutorial for NIH Genomic Data Common in Gogle Colab is available here.](https://colab.research.google.com/drive/1YJ_ypFD9mPaLZ2SfQ4QFPnOT9RXjEum4?usp=sharing)
+- [Tutorial for NIH Genomic Data Common in Google Colab is available here.](https://colab.research.google.com/drive/1YJ_ypFD9mPaLZ2SfQ4QFPnOT9RXjEum4?usp=sharing)
