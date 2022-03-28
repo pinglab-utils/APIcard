@@ -9,6 +9,7 @@ Diseases
 ### Description: 
 
 #### Task: 
+
 Given a mendelian disease (i.e. hemophilia), find known genes associated with
 the disease (i.e. OMIM, Online Mendelian Inheritance in Man). Use the gene list to
 find sequence information (i.e. UCSC Genome Browser) or determine relevant
@@ -18,6 +19,7 @@ target these genes/proteins (i.e. DrugBank) and verify they are treatments for t
 disease of interest.
 
 #### Background:
+
 Starting with a genetic/mendelian disease of interest, we use OMIM to
 find a list of known genes or genes associated with the disease of interest. We want
 to see which genes are existing drug targets for the disease of interest. By looking at
@@ -25,10 +27,12 @@ sequence data, enriched pathways, and protein complexes, we want to find novel
 gene candidates for therapeutic drug targets.
 
 #### Goal:
+
 Find candidate genes associated with disease that are currently not drug
 targets.
 
 #### Methods:
+
 1. Genetic Disease/Phenotype Interest: Use the OMIM API to perform a
 disease/phenotypic keyword search (i.e. hemophilia) to obtain a list of known
 genes associated with disease or phenotype of interest. 
@@ -46,6 +50,7 @@ can find potential gene candidates that are associated with the disease of
 interest and can be future drug targets of interest for disease treatment.
 
 #### Expected outcome:
+
 A list of genes/proteins that are associated with disease and
 currently not targeted for treatment. These genes/proteins can be used for future
 therapeutic research. Future directions include looking at protein-protein interactions

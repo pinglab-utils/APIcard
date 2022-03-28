@@ -5,7 +5,9 @@
 
 
 ### Description
+
 #### Project overview
+
 1. Assume we are given a disease of interest
 
 2. Use the Ensembl phenotype annotation endpoint to extract genomic
@@ -16,6 +18,7 @@ consequences of each variant
 5. Calculate the proportions of each consequence for the disease
 
 #### Function to access Ensembl Rest API features
+
 ● Input: Extension specifying application
 ● Output: Object associated with application
 ● In our case we will use this function to get a list of dictionaries with areas of the genome associated with alzheimer's
@@ -23,12 +26,14 @@ consequences of each variant
 ![img](img/ensemble1.png)
 
 #### Function to find gene regions in our list of dictionaries
+
 ● Input: List of dictionaries of areas of genome associated with a disease 
 ● Output: List of gene regions that are associated with a disease
 
 ![img](img/ensemble2.png)
 
 #### Function to return all variants associated with regions 
+
 ● Input: A list of regions associated with a disease 
 ● Output: All variants associated with those regions
 

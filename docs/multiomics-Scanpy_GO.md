@@ -9,6 +9,7 @@
 ### Description: 
 
 #### Task and Requirements:
+
 1. Determine how cells of particular types in a particular tissue change
 their functional phenotype during the aging process
 
@@ -18,6 +19,7 @@ points to identify cell types
 3. Requires a database of Genes and Functional Analyses
 
 #### Background and Goal:
+
 1. Given scRNA-seq data, downloaded and integrated using Scanpy
 2. We want to find a list of informative genes for functional differences by
 cell type and age
@@ -33,6 +35,7 @@ phenotypic changes that occur due to aging in a particular tissue or set of
 tissues.
 
 #### Method:
+
 1. Use Scanpy to download and integrate publicly available ScRNA datasets
 from NCBI for multiple patients across the same tissue types.
 2. Label data sets by cell type.
@@ -45,6 +48,7 @@ UniProt to search for functional differences that have been conserved or
 changed over time.
 
 #### Expected Outcome:
+
 1. Cell types should roughly be the same during the aging process ( with
 some exceptions)
 	a. Aging affects internal cellular functions but not the composition of

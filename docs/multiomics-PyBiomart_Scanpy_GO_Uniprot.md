@@ -7,7 +7,9 @@
 
 
 ### Description: 
+
 #### Task:
+
 Given a scRNA-seq data set containing a mixture of cell types, annotate with gene names
 (e.g. PyBiomart), identify the marker genes corresponding to each cell type and construct a
 trajectory mapping (e.g. Scanpy). Additionally, identify enriched Gene Ontology (GO) terms
@@ -17,6 +19,7 @@ classified cell types. Finally we can find the names of the differentially expre
 functionally annotate them (e.g. UniProt API).
 
 #### Background: 
+
 Cells are specialized for different functions. To better understand rare cell types,
 we need to identify genes that are distinct in their gene expression profile and look at enriched
 biological processes within these cells to understand some key functions of these different cell
@@ -24,11 +27,13 @@ types. We can further look at their ontological frame with respect to other cell
 some embedding space.
 
 #### Goal: 
+
 Reclassify cell types in the human blood and append newly identified cell types to the
 lineage tree of known cell types. Understand the specialized functions of these newly identified
 cells compared to known cell types.
 
 #### Method:
+
 1. Gene name annotation: Use PyBiomart and the list of gene IDs to get gene name
 annotations
 2. Marker gene identification: Use Scanpy pipeline (with some downsampling to balance
@@ -43,9 +48,11 @@ name) from UniProt and use functional annotating software (e.g. PIGNON) to detec
 enriched biological processes to understand the function of the cells.
 
 #### Expected Outcome: 
+
 Marker genes for new cell types, cell type trajectory, and functional
 annotations for them.
 
 #### Reference:
+
 This project is modeled after “Single-cell RNA-seq reveals new types of human blood dendritic
 cells, monocytes, and progenitors” (https://www.science.org/doi/10.1126/science.aah4573)
