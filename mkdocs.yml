@@ -51,6 +51,23 @@ nav:
   - PyBio Mart: pybio-mart.md
   - PubTator Central API: pubtator-central-api.md
   - Uniprot API: uniprot.md
+
+
+- Multiomics Integration:
+  - Example- Scanpy and  PyBioMart: multiomics-Scanpy_PyBio_Mart.md
+  - Example- Scanpy, GO and Uniprot: multiomics-Scanpy_GO_Uniprot.md
+  - Example- Scanpy Go: multiomics-Scanpy_GO.md
+  - Example- Scanpy, PyBioMart, ScanPy, Go, and Uniprot: multiomics-PyBiomart_Scanpy_GO_Uniprot.md
+  - Example- Omim, USGC, GO, Uniprot and DrugBank: multiomics-omim_ucsc_go_Uniprot_DrugBank.md
+  - Example- Omim and UCSC: multiomics-omim_ucsc.md
+  - Example- NCI, GDC ScanPy and EebGestalt: multiomics-NCI GDC_Scanpy_WebGestalt.md
+  - Example- NCI, GDC and GO: multiomics-NCI GDC_GO.md
+  - Example- MyGenInfo and cBioportal: multiomics-MyGeneInfo-cBioPortal.md
+  - Example- GWAS WebGestalt: multiomics-GWAS_WebGestalt.md
+  - Example- GWAS eQTLS: multiomics-GWAS_eQTLs.md
+  - Example- Ensembl : multiomics-Ensembl (phenotype annotation-overlap-VEP).md
+
+
   
   
   
