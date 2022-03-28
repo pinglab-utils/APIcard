@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>WebGesalt Web API - API-CARD</title>
+  <title>Example- GWAS eQTLS - API-CARD</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "WebGesalt Web API";
-    var mkdocs_page_input_path = "web-gestalt-web-api.md";
+    var mkdocs_page_name = "Example- GWAS eQTLS";
+    var mkdocs_page_input_path = "multiomics-GWAS_eQTLs.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -119,54 +119,9 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        WebGesalt Web API
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-  <li class="toctree-l2 current with-children">
-    <a href="#webgestalt-web-api">
-      WebGestalt Web API
-      <span class="toctree-expand"></span>
-    </a>
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../web-gestalt-web-api/">WebGesalt Web API</a>
   </li>
-
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#explored-by">Explored by:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#description">Description:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#use-cases">Use cases:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#tutorial">Tutorial:</a>
-        </li>
-    
-    </ul>
-  </li>
-
-
-  
         
           
 
@@ -290,9 +245,84 @@
           
 
 
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../multiomics-GWAS_eQTLs/">Example- GWAS eQTLS</a>
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Example- GWAS eQTLS
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+  <li class="toctree-l2 current with-children">
+    <a href="#integration-of-gwas-and-eqtls-apis">
+      Integration of GWAS and eQTLs APIs
+      <span class="toctree-expand"></span>
+    </a>
   </li>
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#explored-by">Explored by:</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l3">
+    <a href="#description">
+      Description:
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3">
+    <ul class="subnav-l3 toc-hidden">
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#task">Task:</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#background">Background:</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#goal">Goal:</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#method">Method:</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#expected-outcome">Expected outcome:</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
+
+  
         
           
 
@@ -326,11 +356,11 @@
     
       
         
-          <li>API Card &raquo;</li>
+          <li>Multiomics Integration &raquo;</li>
         
       
     
-    <li>WebGesalt Web API</li>
+    <li>Example- GWAS eQTLS</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -340,35 +370,40 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="webgestalt-web-api">WebGestalt Web API</h2>
+                <h2 id="integration-of-gwas-and-eqtls-apis">Integration of GWAS and eQTLs APIs</h2>
 <h4 id="explored-by">Explored by:</h4>
-<p><code>HUANG, HUILING</code>,<code>FU, JINGYUAN</code>-<code>(Bioinformatics 201, Winter-2022, UCLA)</code></p>
-<hr />
-<p><img alt="img" src="../img/webg.png" /></p>
-<hr />
+<p><code>PIMPLASKAR, ADITYA</code>, <code>LI, TERENCE WENTAO</code>, <code>KIM, SANDY SUNG</code>- <code>(Bioinfo 201 - Winter 2022)</code></p>
 <h3 id="description">Description:</h3>
-<p>WebGestalt is a gene set enrichment analysis tool which helps users interpret lists
-of interesting genes or proteins from high-throughput experiment results in various biological contexts. The tool supports three complementary methods for enrichment analysis, including :</p>
-<ul>
-<li>Over-Representation Analysis (ORA)</li>
-<li>Gene Set Enrichment Analysis (GSEA)</li>
-<li>Network Topology-based Analysis (NTA) </li>
-</ul>
-<p>Various functional databases and reference gene sets are available, and users can upload their own choice of reference set. WebGestalt can be accessed directly at <a href="http://www.webgestalt.org/">webgestalt.org</a>, and the user manual of the API is detailed at <a href="http://www.webgestalt.org/WebGestalt_2019_Manual.pdf">WebGestalt 2019 Manual</a>.</p>
-<h3 id="use-cases">Use cases:</h3>
-<ul>
-<li>Retrieve gene set data files of interest (e.g., retrieve the human gene set files in KEGG
-database for pathway analysis)</li>
-<li>Retrieve gene set enrichment analysis results (e.g., perform gene set enrichment
-analysis of a specific list of genes with specified organism, enrichment method, FDR
-method, enrichment database category, enrichment database name, statistically
-significant method, significant value, maximum number of genes for a category, ID type
-of the gene list and reference set)</li>
-</ul>
-<h3 id="tutorial">Tutorial:</h3>
-<ul>
-<li><a href="https://colab.research.google.com/drive/18_JNFjTkzNPnc40gdblYnhGwgv0uSEnp?usp=sharing">Tutorial for Web Gestalt Web API in Google Colab is available here</a></li>
-</ul>
+<h4 id="task">Task:</h4>
+<p>Given a set of GWAS hits for a cancer like leukemia, retrieved from the GWAS Catalog (through
+gwasrapidd querying in R), can we detect genes that are variably expressed? In other words,
+can we map these GWAS hits as expression quantitative trait loci (eQTLs) in leukemia cells, or
+any other cancer type (queried through cBioPortal)? </p>
+<h4 id="background">Background:</h4>
+<p>For a particular cancer type, you find a set of associated SNPs and are interested in their
+downstream regulation on gene expression. You want to try to track any functional association
+of these variants on cancer gene expression pathways. Being able to track these associations
+can provide a more thorough view of cancer biology, while also potentially allowing for the
+investigation of targeted therapeutics.</p>
+<h4 id="goal">Goal:</h4>
+<p>Detect downstream effects of GWAS hits on gene expression in the target cancer EFO trait.</p>
+<h4 id="method">Method:</h4>
+<ol>
+<li>GWAS variants: Query the GWAS Catalog with the ‘leukemia’ EFO trait, using the
+<code>get_studies</code> function to retrieve relevant studies. Extract rsids top significant GWAS hits
+from query using the <code>get_variants</code> function. These are the variants that we will
+investigate as potential eQTLs. We restrict the analysis to cis-eQTLs (variants localized
+within the region of the gene).</li>
+</ol>
+<p><img alt="img" src="../img/gwas1.png" /></p>
+<ol>
+<li>cBioPortal and gene expression analysis: cBio portal houses datasets that have linked mutation and gene expression data. We cross-reference our discovered GWAS hits
+against available mutations, and perform eQTL analysis on these mutations with nearby genes. </li>
+</ol>
+<p><img alt="img" src="../img/gwas2.png" /></p>
+<h4 id="expected-outcome">Expected outcome:</h4>
+<p>Linked gene and SNP pairs for the target EFO trait and their significance. This may yield insight
+into variants that can regulate gene expression.</p>
               
             </div>
           </div>
@@ -376,10 +411,10 @@ of the gene list and reference set)</li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../cbio-portal/" class="btn btn-neutral float-right" title="cBio Portal">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../multiomics-Ensembl%20%28phenotype%20annotation-overlap-VEP%29/" class="btn btn-neutral float-right" title="Example- Ensembl">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../omim-api/" class="btn btn-neutral" title="OMIM API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../multiomics-GWAS_WebGestalt/" class="btn btn-neutral" title="Example- GWAS WebGestalt"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -405,10 +440,10 @@ of the gene list and reference set)</li>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../omim-api/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../multiomics-GWAS_WebGestalt/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../cbio-portal/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../multiomics-Ensembl%20%28phenotype%20annotation-overlap-VEP%29/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

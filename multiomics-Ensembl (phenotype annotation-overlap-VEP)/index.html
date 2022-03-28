@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>WebGesalt Web API - API-CARD</title>
+  <title>Example- Ensembl - API-CARD</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "WebGesalt Web API";
-    var mkdocs_page_input_path = "web-gestalt-web-api.md";
+    var mkdocs_page_name = "Example- Ensembl";
+    var mkdocs_page_input_path = "multiomics-Ensembl (phenotype annotation-overlap-VEP).md";
     var mkdocs_page_url = null;
   </script>
   
@@ -119,54 +119,9 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        WebGesalt Web API
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-  <li class="toctree-l2 current with-children">
-    <a href="#webgestalt-web-api">
-      WebGestalt Web API
-      <span class="toctree-expand"></span>
-    </a>
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../web-gestalt-web-api/">WebGesalt Web API</a>
   </li>
-
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#explored-by">Explored by:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#description">Description:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#use-cases">Use cases:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#tutorial">Tutorial:</a>
-        </li>
-    
-    </ul>
-  </li>
-
-
-  
         
           
 
@@ -297,9 +252,94 @@
           
 
 
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../multiomics-Ensembl%20%28phenotype%20annotation-overlap-VEP%29/">Example- Ensembl</a>
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        Example- Ensembl
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+  <li class="toctree-l2 current with-children">
+    <a href="#api-based-method-retrieves-variant-consequence-proportions-for-human-diseases">
+      API-based method retrieves variant consequence proportions for human diseases
+      <span class="toctree-expand"></span>
+    </a>
   </li>
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#explored-by">Explored by:</a>
+        </li>
+    
+      
+          
+
+  <li class="toctree-l3">
+    <a href="#description">
+      Description
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3">
+    <ul class="subnav-l3 toc-hidden">
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#project-overview">Project overview</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#function-to-access-ensembl-rest-api-features">Function to access Ensembl Rest API features</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#function-to-find-gene-regions-in-our-list-of-dictionaries">Function to find gene regions in our list of dictionaries</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#function-to-return-all-variants-associated-with-regions">Function to return all variants associated with regions</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#use-vep-to-get-variant-consequence">Use VEP to get variant consequence</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#calculate-proportions-of-consequence-in-a-variant-list">Calculate proportions of consequence in a variant list</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#results-proportion-of-variant-consequences-in-alzheimers-disease">Results: Proportion of variant consequences in Alzheimer’s disease</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
+
+  
         
       </ul>
     </li>
@@ -326,11 +366,11 @@
     
       
         
-          <li>API Card &raquo;</li>
+          <li>Multiomics Integration &raquo;</li>
         
       
     
-    <li>WebGesalt Web API</li>
+    <li>Example- Ensembl</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -340,35 +380,53 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="webgestalt-web-api">WebGestalt Web API</h2>
+                <h2 id="api-based-method-retrieves-variant-consequence-proportions-for-human-diseases">API-based method retrieves variant consequence proportions for human diseases</h2>
 <h4 id="explored-by">Explored by:</h4>
-<p><code>HUANG, HUILING</code>,<code>FU, JINGYUAN</code>-<code>(Bioinformatics 201, Winter-2022, UCLA)</code></p>
-<hr />
-<p><img alt="img" src="../img/webg.png" /></p>
-<hr />
-<h3 id="description">Description:</h3>
-<p>WebGestalt is a gene set enrichment analysis tool which helps users interpret lists
-of interesting genes or proteins from high-throughput experiment results in various biological contexts. The tool supports three complementary methods for enrichment analysis, including :</p>
-<ul>
-<li>Over-Representation Analysis (ORA)</li>
-<li>Gene Set Enrichment Analysis (GSEA)</li>
-<li>Network Topology-based Analysis (NTA) </li>
-</ul>
-<p>Various functional databases and reference gene sets are available, and users can upload their own choice of reference set. WebGestalt can be accessed directly at <a href="http://www.webgestalt.org/">webgestalt.org</a>, and the user manual of the API is detailed at <a href="http://www.webgestalt.org/WebGestalt_2019_Manual.pdf">WebGestalt 2019 Manual</a>.</p>
-<h3 id="use-cases">Use cases:</h3>
-<ul>
-<li>Retrieve gene set data files of interest (e.g., retrieve the human gene set files in KEGG
-database for pathway analysis)</li>
-<li>Retrieve gene set enrichment analysis results (e.g., perform gene set enrichment
-analysis of a specific list of genes with specified organism, enrichment method, FDR
-method, enrichment database category, enrichment database name, statistically
-significant method, significant value, maximum number of genes for a category, ID type
-of the gene list and reference set)</li>
-</ul>
-<h3 id="tutorial">Tutorial:</h3>
-<ul>
-<li><a href="https://colab.research.google.com/drive/18_JNFjTkzNPnc40gdblYnhGwgv0uSEnp?usp=sharing">Tutorial for Web Gestalt Web API in Google Colab is available here</a></li>
-</ul>
+<p><code>DARCI-MAHER, NICHOLAS WAXTER</code>, <code>RAZMA, CONNOR JOHN</code>- <code>(Bioinfo 201 - Winter 2022)</code></p>
+<h3 id="description">Description</h3>
+<h4 id="project-overview">Project overview</h4>
+<ol>
+<li>
+<p>Assume we are given a disease of interest</p>
+</li>
+<li>
+<p>Use the Ensembl phenotype annotation endpoint to extract genomic
+regions associated with the disease</p>
+</li>
+<li>Use the Ensembl overlap endpoint to find variants in these regions 4.
+Use the Ensembl Variant Effect Predictor (VEP) endpoint to discover the
+consequences of each variant</li>
+<li>Calculate the proportions of each consequence for the disease</li>
+</ol>
+<h4 id="function-to-access-ensembl-rest-api-features">Function to access Ensembl Rest API features</h4>
+<p>● Input: Extension specifying application
+● Output: Object associated with application
+● In our case we will use this function to get a list of dictionaries with areas of the genome associated with alzheimer's</p>
+<p><img alt="img" src="../img/ensemble1.png" /></p>
+<h4 id="function-to-find-gene-regions-in-our-list-of-dictionaries">Function to find gene regions in our list of dictionaries</h4>
+<p>● Input: List of dictionaries of areas of genome associated with a disease 
+● Output: List of gene regions that are associated with a disease</p>
+<p><img alt="img" src="../img/ensemble2.png" /></p>
+<h4 id="function-to-return-all-variants-associated-with-regions">Function to return all variants associated with regions</h4>
+<p>● Input: A list of regions associated with a disease 
+● Output: All variants associated with those regions</p>
+<p><img alt="img" src="../img/ensemble3.png" /></p>
+<h4 id="use-vep-to-get-variant-consequence">Use VEP to get variant consequence</h4>
+<p>● Input: a single variant ID (rsID) 
+● Output: The most severe consequence of that variant (e.g. missense, splice  site, stop gained, etc.)</p>
+<p><img alt="img" src="../img/ensemble4.png" /></p>
+<h4 id="calculate-proportions-of-consequence-in-a-variant-list">Calculate proportions of consequence in a variant list</h4>
+<p>● Input: a list of variant IDs 
+● Output: proportion of consequences for the disease associated with the list  of variants</p>
+<p><img alt="img" src="../img/ensemble5.png" /></p>
+<h4 id="results-proportion-of-variant-consequences-in-alzheimers-disease">Results: Proportion of variant consequences in Alzheimer’s disease</h4>
+<p>● Ran our full pipeline on Alzheimer’s  disease (EFO ID=0000249) 
+● Found that the most common<br />
+consequences in Alzheimer’s variants are: 
+1. Intron variant (35%) 
+2. Missense variant (14%) 
+3.  3’ UTR variant (13%)</p>
+<p><img alt="img" src="../img/ensemble6.png" /></p>
               
             </div>
           </div>
@@ -376,10 +434,8 @@ of the gene list and reference set)</li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../cbio-portal/" class="btn btn-neutral float-right" title="cBio Portal">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../omim-api/" class="btn btn-neutral" title="OMIM API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../multiomics-GWAS_eQTLs/" class="btn btn-neutral" title="Example- GWAS eQTLS"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -405,10 +461,8 @@ of the gene list and reference set)</li>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../omim-api/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../multiomics-GWAS_eQTLs/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../cbio-portal/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
