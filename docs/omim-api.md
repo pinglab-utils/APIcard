@@ -21,5 +21,9 @@ Output: list of drugs that may be effective for your original monogenic disorder
 
 #### Example: Drug repurposing suggestions for Mendelian Disorders
 
+
+
 ![img](img/omim_ucsc.png)
+
+#### [Tutorials: API tutorial on OMIM](https://colab.research.google.com/drive/1gbhg5ZAxnW8saTCaS4IBzlaYDijd3Elx?usp=sharing)
 
