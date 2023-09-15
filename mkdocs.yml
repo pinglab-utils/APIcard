@@ -50,6 +50,10 @@ nav:
   - Scanpy : scanty.md
   - PyBio Mart: pybio-mart.md
   - PubTator Central API: pubtator-central-api.md
+  - Disgenet API: disgenet.md
+  - KEGG API: kegg.md
+  - Mgnify API: mgnify.md
+  - SCOP API: scop.md
   - Uniprot API: uniprot.md
 
 
