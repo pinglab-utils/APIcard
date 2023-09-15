@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>New Gene Info - API-CARD</title>
+  <title>SCOP API - API-CARD</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
   <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
 
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "New Gene Info";
-    var mkdocs_page_input_path = "new-gene-info.md";
+    var mkdocs_page_name = "SCOP API";
+    var mkdocs_page_input_path = "scop.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -91,54 +91,9 @@
           
 
 
-  
-    
-    <li class="navtree toctree-l2 page current">
-      <a class="current" href="./">
-        New Gene Info
-          <span class="toctree-expand"></span>
-      </a>
-    </li>
-    
-      
-
-  <li class="toctree-l2 current with-children">
-    <a href="#mygeneinfo-api">
-      MyGene.Info API
-      <span class="toctree-expand"></span>
-    </a>
+  <li class="navtree toctree-l2 inactive">
+    <a class="" href="../new-gene-info/">New Gene Info</a>
   </li>
-
-
-
-  <li class="toctree-l2 current">
-    <ul class="subnav-l2 current">
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#explored-by">Explored by:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#description">Description:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#use-cases">Use Cases:</a>
-        </li>
-    
-      
-        <li class="toctree-l3">
-          <a class="toctree-l4" href="#tutorial">Tutorial:</a>
-        </li>
-    
-    </ul>
-  </li>
-
-
-  
         
           
 
@@ -220,9 +175,101 @@
           
 
 
-  <li class="navtree toctree-l2 inactive">
-    <a class="" href="../scop/">SCOP API</a>
+  
+    
+    <li class="navtree toctree-l2 page current">
+      <a class="current" href="./">
+        SCOP API
+          <span class="toctree-expand"></span>
+      </a>
+    </li>
+    
+      
+
+  <li class="toctree-l2 current with-children">
+    <a href="#task-1-scop-api">
+      Task-1 : SCOP API
+      <span class="toctree-expand"></span>
+    </a>
   </li>
+
+
+
+  <li class="toctree-l2 current">
+    <ul class="subnav-l2 current">
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#explored-by">Explored by:</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#description">Description:</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#use-cases">Use cases:</a>
+        </li>
+    
+      
+        <li class="toctree-l3">
+          <a class="toctree-l4" href="#tutorial">Tutorial:</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+
+  <li class="toctree-l2">
+    <a href="#task-2-integration-of-rcsb-protein-data-bank-pdb-search-api-and-structural-classification-of-proteins-scop-api">
+      Task 2: Integration of RCSB Protein Data Bank (PDB) Search API and Structural Classification of Proteins (SCOP) API
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l2">
+    <ul class="subnav-l2 toc-hidden">
+    
+      
+          
+
+  <li class="toctree-l3 current with-children">
+    <a href="#description_1">
+      Description:
+      <span class="toctree-expand"></span>
+    </a>
+  </li>
+
+
+
+  <li class="toctree-l3 current">
+    <ul class="subnav-l3 current">
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#method">Method:</a>
+        </li>
+    
+      
+        <li class="toctree-l4">
+          <a class="toctree-l5" href="#expected-outcome">Expected Outcome:</a>
+        </li>
+    
+    </ul>
+  </li>
+
+      
+    
+    </ul>
+  </li>
+
+
+  
         
           
 
@@ -358,7 +405,7 @@
         
       
     
-    <li>New Gene Info</li>
+    <li>SCOP API</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -368,39 +415,31 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="mygeneinfo-api">MyGene.Info API</h2>
+                <h2 id="task-1-scop-api">Task-1 : SCOP API</h2>
 <h4 id="explored-by">Explored by:</h4>
-<p><code>RIDGLEY, TREVOR JAY</code>,<code>WANG, HAROLD ZHAOKUN</code>,<code>XIANG, MARK</code>- <code>(Bioinformatics 201, Winter-2022, UCLA)</code></p>
-<hr />
-<p><img alt="img" src="../img/mygene.png" /></p>
-<hr />
-<h3 id="description">Description:</h3>
-<p><code>MyGene.info</code> is a web API built with BioThings SDK for accessing gene annotation
-information from different sources and integrating that information. There are 2 services: Gene Query &amp;
-Gene Annotation. With gene query, genes associated with various conditions such as gene position,
-protein and pathways can be found. If the gene of interest is known, then full gene information can be
-accessed directly with either their NCBI or EMSEMBL IDs.</p>
-<h3 id="use-cases">Use Cases:</h3>
-<ul>
-<li>
-<p><strong>Query genes:</strong> <a href="https://docs.mygene.info/en/latest/doc/query_service.html">Query gene query service</a> Find genes associated with a protein, organism, genomic interval, name, alias, pathway, gene ontology, etc. Some sample results are below:</p>
-<ul>
-<li><a href="http://mygene.info/v3/query?q=symbol:cdk2">http://mygene.info/v3/query?q=symbol:cdk2</a></li>
-<li><a href="http://mygene.info/v3/query?q=chrX:151,073,054-151,383,976&amp;species:human">http://mygene.info/v3/query?q=chrX:151,073,054-151,383,976&amp;species:human</a></li>
-</ul>
-</li>
-<li>
-<p><strong>Annotate genes:</strong> <a href="https://docs.mygene.info/en/latest/doc/annotation_service.html">Anote Gene annotation service</a> Return aggregated info for a desired gene object using either Entrez (“1017”) or Ensembl (“ENSG00000123374”). Some sample results are below:</p>
-<ul>
-<li><a href="http://mygene.info/v3/gene/1017">http://mygene.info/v3/gene/1017</a></li>
-<li><a href="http://mygene.info/v3/gene/ENSG00000123374">http://mygene.info/v3/gene/ENSG00000123374</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="tutorial">Tutorial:</h3>
-<ul>
-<li><a href="https://colab.research.google.com/drive/1sIAT4ZVg8zB_miOrnUuQH9XwosqnM_T6?usp=sharing#scrollTo=5Co7ypvkPJW8">Tutorial for MyGene.Info in Google Colab is available here.</a></li>
-</ul>
+<p>Explored by: <code>Joseph Galasso, Yuxing Zhou and Zitian Wang</code> </p>
+<p><img alt="img" src="../img/scop.png" /></p>
+<h4 id="description">Description:</h4>
+<p><a href="https://scop.mrc-lmb.cam.ac.uk/">SCOP</a>, Structure Classification of Protein, aims to provide comprehensive information on protein structure and the evolutionary relationship between proteins with known structures. Using SCOP, users can easily get the structural information for the protein they are interested in and also get the related protein based on structural similarity. SCOP includes 72544 non-redundant domains representing 861631 protein structures. The users can search their protein of interest based on SCOP ID, PDB ID, or UniProt ID. A brief API instruction from SCOP can be accessed <a href="https://scop.mrc-lmb.cam.ac.uk/api">here</a>. </p>
+<h4 id="use-cases">Use cases:</h4>
+<p>Retrieve the structural information of proteins of interest. By entering the SCOP ID, PDB ID, or UniProt ID of a certain protein of interest, users can get a list of comprehensive protein structure information.
+Explore proteins with similar structures. SCOP allows users to search for genes with a similar structure to the gene they are interested in. For example, there is a protein of interest for a user. The user can search the structure information of that protein by using the SCOP ID, PDB ID, or UniProt ID. Then, SCOP allows users to search the structure they are interested in, and get a list of proteins with similar structure. </p>
+<h4 id="tutorial">Tutorial:</h4>
+<p><a href="https://colab.research.google.com/drive/1jld1aQcwwUbgYabQ9IRgeQNIli-9u6dc#scrollTo=Gm-6V9eWkTGu">Tutorial for SCOP in Google Colab is available here</a>. </p>
+<h2 id="task-2-integration-of-rcsb-protein-data-bank-pdb-search-api-and-structural-classification-of-proteins-scop-api">Task 2: Integration of RCSB Protein Data Bank (PDB) Search API and Structural Classification of Proteins (SCOP) API</h2>
+<p>Explored by: <code>Joseph Galasso, Yuxing Zhou and Zitian Wang</code></p>
+<h3 id="description_1">Description:</h3>
+<p>(1) Task: Given a list of proteins from PDB, determine the structural classification and type of these proteins. </p>
+<p>(2) Background: A list of protein sequences has been generated via wet lab assays that are all probable binding partners to a particular molecule. It would be interesting to determine if these protein binding partners share particular structural features or are related in structure or evolution. This would have utility in helping us understand what an optimal binding partner for the molecule of interest would look like. </p>
+<p>(3) Goal: Given a list of proteins denoted by PDB IDs, use these PDB IDs in a search through SCOP (FA-PDBID field in SCOP) to determine the structural classification of these proteins.</p>
+<h4 id="method">Method:</h4>
+<ol>
+<li>We are given the sequences of the proteins (obtained from wet lab assays) that are probable binding partners. Use the RCSB PDB Search API 
+(https://search.rcsb.org/#search-api) to perform a sequence similarity search and obtain the output (use “entry” for return type) PDB ID list. </li>
+<li>Map the PDB IDs from the previous step to the FA-PDBID field in SCOP (https://scop.mrc-lmb.cam.ac.uk/) to identify structural classification of these PDB IDs. Specifically, we will use the SCOP FA-PDBREG field, which describes the family domain region in PDB residue numbering. </li>
+</ol>
+<h4 id="expected-outcome">Expected Outcome:</h4>
+<p>A dataframe with each row having a column listing the protein sequence, a column listing mapped PDB ID(s) (output of RCSB API), and a column containing the family domain regions for respective PDB ID(s) in the prior column (output of SCOP API)</p>
               
             </div>
           </div>
@@ -408,10 +447,10 @@ accessed directly with either their NCBI or EMSEMBL IDs.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../gene-ontology/" class="btn btn-neutral float-right" title="Gene Ontology">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../uniprot/" class="btn btn-neutral float-right" title="Uniprot API">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../ensembl-rest-api/" class="btn btn-neutral" title="Ensebl REST API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../mgnify/" class="btn btn-neutral" title="Mgnify API"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -437,10 +476,10 @@ accessed directly with either their NCBI or EMSEMBL IDs.</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../ensembl-rest-api/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../mgnify/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../gene-ontology/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../uniprot/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
