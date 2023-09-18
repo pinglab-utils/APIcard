@@ -1,18 +1,17 @@
 
-# API Card
+# API Card Library
 
+Welcome to the API Card Library!
 
-Welcome to API card collection!
+Application Programming Interfaces (APIs) are software intermediaries that enable two applications to communicate. Many biomedical knowledge bases and software tools support API access.
 
-Application Programming Interfaces (APIs) are software intermediaries that enable two applications to communicate. Many biomedical knowledge bases and software tools support API access. 
+These API Cards were developed as part of the class projects from UCLA Bioinformatics 201 2022-2023 and as hands-on projects from Bridge2AI ENABLE Scholar Program.
 
-We have compiled all API cards collected by students in **BioInfo 201-Winter, 2022, UCLA** class, conducted by **Pinglab UCLA**, as their class project into a unified document. The goal of this project is to: 
-
+The goal of this project is to:
 - Learn which APIs are available for biomedical knowledge, software tools, or datasets, and how they can be accessed.
 - Describe how these APIs can be leveraged for omics-related data analysis workflows.
 
 Each API card document is prepared by a group of students which includes:
-
 - Title
 - Description
 - Use Cases
@@ -20,7 +19,8 @@ Each API card document is prepared by a group of students which includes:
 
 ## A Sample API Card
 
-Following is a sample API card prepared by instructors on Uniprot API. We encourage students to follow the similar pattern and add more information (e.g., cheat sheet, citations, supporting papers) if needed and available.
+Following is a sample API card prepared by instructors on Uniprot API. To create your own API Card, please follow the similar pattern below with additional information (e.g., cheat sheet, citations, supporting papers) if applicable.
+
 
 -----------
 
@@ -45,11 +45,11 @@ UniProt’s web API described here to convert these IDs.)
 
 #### Tutorial: 
 
-We encourage students to create a Google Colab jupyter notebook as a tutorial with necessary code to illustrate the use of API with some tasks. Here we provide a smaple tutorial for Uniprot API.
+We encourage participants to create a Google Colab jupyter notebook as a tutorial with necessary code to illustrate the use of API with some tasks. Here we provide a sample tutorial for Uniprot API.
 
 [Tutorial on Uniprot API in Google Colab is available here](https://colab.research.google.com/drive/1gblX7Sv-z54VcuIPQ88pQ0OT9DgRkQu_?usp=sharing)
 
 
 ---------
 
-Brought to you by **Ping Lab Utils (GitHub), UCLA, 2022**
+Brought to you by **Ping Lab Utils (GitHub), UCLA, 2023**
